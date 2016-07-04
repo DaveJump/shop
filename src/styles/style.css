@@ -572,20 +572,20 @@ input {
   margin-right: 2rem;
 }
 
+.prev-page, .next-page, .next-page {
+  background-size: cover !important;
+}
+
 .prev-page, .next-page {
   display: inline-block;
   width: 25px;
   height: 25px;
   cursor: pointer;
   background: url(../images/icons/arrow.png) left no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
 }
 
 .next-page {
   background: url(../images/icons/arrow.png) right no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
 }
 
 .arrival-items li {
